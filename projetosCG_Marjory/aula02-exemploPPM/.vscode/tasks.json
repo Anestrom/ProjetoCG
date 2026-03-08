@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+   
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "g++.exe build active file",
+            "command": "g++.exe",
+            "presentation": {"clear": true, "reveal": "always", "panel": "new"},
+            "args": [
+                "-g",
+                //"--std=c++11",
+                //"--std=c++2a",
+                "--std=c++17",
+                "${workspaceFolder}\\*.cpp",
+                "-o",
+                "${workspaceFolder}\\main.exe",
+                "-I${workspaceFolder}\\..\\include"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
