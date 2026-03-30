@@ -1,0 +1,16 @@
+# triangulo frente
+v -2.5 0 5.5
+v 0 5 5.5
+v 2.5 0 5.5
+v -2.5 0 -5.5
+v 0 5 -5.5
+v 2.5 0 -5.5
+
+f 3 2 1 # frente
+f 4 5 6 # atras
+f 1 6 3 # embaixo direita
+f 1 4 6 # embaixo esquerda
+f 3 6 5 # lado direito embaixo
+f 3 5 2 # lado direito em cima
+f 1 2 4 # lado esquerdo embaixo
+f 2 5 4 # lado esquerdo em cima

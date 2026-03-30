@@ -1,0 +1,21 @@
+# nome do material
+newmtl matCubo
+
+#luz ambiente
+Ka 1.0 1.0 1.0
+
+#luz difusa
+Kd 1.0 1.0 1.0
+
+#luz especular preta(desativada)
+Ks 0.0 0.0 0.0
+Ns 0.0
+
+#opacidade, d=1, totalmente opaco
+d 1.000000
+
+# moddo de iluminacao
+illum 1
+
+#arquivo de textura
+map_Kd textura.jpg

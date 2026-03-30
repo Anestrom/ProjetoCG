@@ -1,0 +1,19 @@
+# Nome do arquivo do material
+mtllib matNum.mtl
+
+# Vertices
+v 0 0 -2
+v 2 0 -2
+v 2 2 -2
+v 0 2 -2
+
+# Texturas
+vt 0.5 0.5
+vt 1 0.5
+vt 1 1
+vt 0.5 1
+
+# Faces com as coordenadas de textura
+usemtl matNum
+f 1/1 2/2 4/4
+f 2/2 3/3 4/4

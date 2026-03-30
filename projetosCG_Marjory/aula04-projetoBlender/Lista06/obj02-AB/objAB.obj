@@ -1,0 +1,23 @@
+# Nome do arquivo do material
+mtllib matAB.mtl
+
+# Vertices
+v -1 0 -2
+v 1 0 -2
+v 1 0 -4
+v 1 2 -4
+v 1 2 -2
+v -1 2 -2
+
+# Texturas
+vt 0 0
+vt 0.5 0
+vt 1 0
+vt 1 1
+vt 0.5 1
+vt 0 1
+
+# Faces com as coordenadas de textura
+usemtl matAB
+f 1/1 2/2 5/5 6/6
+f 2/2 3/3 4/4 5/5

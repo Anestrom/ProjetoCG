@@ -1,0 +1,60 @@
+# Nome do arquivo do material
+mtllib matCubo.mtl
+
+# Vertices
+v 0 0 0
+v 2 0 0
+v 2 2 0
+v 0 2 0
+
+v 0 0 -2
+v 2 0 -2
+v 2 2 -2
+v 0 2 -2
+
+
+# Texturas
+# numero 1
+vt 0 0.66
+vt 0.5 0.66
+vt 0.5 1
+vt 0 1
+
+# numero 2
+vt 0.5 0.66
+vt 1 0.66
+vt 1 1
+vt 0.5 1
+
+# numero 3
+vt 0 0.33
+vt 0.5 0.33
+vt 0.5 0.66
+vt 0 0.66
+
+# numero 4
+vt 0.5 0.33
+vt 1 0.33
+vt 1 0.66
+vt 0.5 0.66
+
+# numero 5
+vt 0 0
+vt 0.5 0
+vt 0.5 0.33
+vt 0 0.33
+
+# numero 6
+vt 0.5 0
+vt 1 0
+vt 1 0.33
+vt 0.5 0.33 
+
+# Faces com as coordenadas de textura
+usemtl matCubo
+f 1/1 2/2 3/3 4/4 # Frente 1
+f 4/5 3/6 7/7 8/8 # Cima 2
+f 2/9 6/10 7/11 3/12 # Lado D 3
+f 6/13 5/14 8/15 7/16 # Atras 4
+f 2/17 1/18 5/19 6/20 # Em baixo 5
+f 5/21 1/22 4/23 8/24 # Lado E 6
